@@ -27,7 +27,7 @@ M.general = {
     ["<leader>n"] = { "<cmd> set nu! <CR>", "Toggle line number" },
     ["<leader>rn"] = { "<cmd> set rnu! <CR>", "Toggle relative number" },
     ["<leader>ww"] = { "<cmd> write <CR>", "Write file" },
-    ["<leader>eq"] = { "<cmd> q <CR>", "Quit" },
+    ["<leader>eq"] = { "<cmd> q! <CR>", "Quit" },
     ["<leader>a"] = { "<cmd> :keepjumps normal! ggVG <CR>", "Select all"},
 
     -- Allow moving the cursor through wrapped lines with j, k, <Up> and <Down>
